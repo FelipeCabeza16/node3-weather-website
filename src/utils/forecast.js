@@ -11,7 +11,7 @@ callback('Unable to connect!!', undefined);
 callback('An error was ocurred', undefined);    
 }
 else{
-callback(undefined, body.daily.data[0].summary);    
+callback(undefined, 'Hoy ' + body.daily.data[0].summary + '. La temperatura está a ' + body.currently.temperature + '°C. Con probabilidad de precipitación de ' +body.currently.precipProbability+ '. Temperatura más alta ' +body.daily.data[0].temperatureHigh+ '°C  Temperatura  más baja ' + body.daily.data[0].temperatureLow + '°C');    
 }
 }); 
 
