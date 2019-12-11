@@ -1,5 +1,5 @@
 //Procfile
-web: node app.js
+web: node src/app.js
 
 //app.js
 var request = require("request");
