@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Weather HomePage</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <!-- ROUTES IN SRC, NOT IN TEMPLATES-->
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/styles.css'>
+ 
+</head>
+<body>
+    {{>header}}
+    <form>
+        <input placeholder="Place">
+        
+        </input>
+        <button>Send</button>
+    </form>
+
+<p id="message-1"></p>
+<p id="message-2"></p>
+<script src='../js/form-utils.js'></script>
+</body>
+</html>
